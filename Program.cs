@@ -1,32 +1,59 @@
-﻿// See https://aka.ms/new-console-template for more information
-namespace Ambiente1
+﻿namespace Ambiente1
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Dois números serão somados, e resultado será comparado a zero.");
+            // idade do primeiro aluno
+            int age1;
+            // idade do segundo aluno
+            int age2;
+            // entrada do usuário
+            String userInput;
+            // resultado da comparação para output
+            String programOutput;
 
-            Console.Write("Digite o primeiro número a ser somado:\n\t- ");
-            int n1 = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite o segundo número a ser somado:\n\t- ");
-            int n2 = int.Parse(Console.ReadLine());
+            // apresentação do programa
+            Console.WriteLine("\n\n\tO programa a seguir irá pedir a " +
+                "idade de dois alunos para definir quem é o mais velho e quem é o mais novo.");
 
-            int n3 = n1 + n2;
-            String resultado;
-            if (n3 < 0)
+
+            // input do aluno 1
+            Console.Write("\nInsira a idade do primeiro aluno:\n\t- ");
+            userInput = Console.ReadLine();
+            age1 = int.Parse(userInput);
+
+
+            // input do aluno 2
+            Console.Write("\nInsira a idade do segundo aluno:\n\t- ");
+            userInput = Console.ReadLine();
+            age2 = int.Parse(userInput);
+
+
+            // definição do output
+            if (age1 > age2)
             {
-                resultado = "menor";
-            }else if (n3 == 0)
+                programOutput = "mais velho que";
+            }
+            else if (age1 == age2)
             {
-                resultado = "igual";
+                programOutput = "tão velho quanto";
             }
             else
             {
-                resultado = "maior";
+                programOutput = "mais novo que";
             }
-            Console.Write("A soma ({0}) é {1} que zero", n3, resultado);
+
+
+            // output
+            Console.WriteLine("\nO primeiro aluno(idade: {0}) é {1} o segundo aluno(idade: {2})!"
+                , age1, programOutput, age2);
+
+
+            // impedir fechamento automático do console
+            Console.Write("\nAperte Enter para finalizar o programa");
+            Console.ReadLine();
         }
     }
 }
