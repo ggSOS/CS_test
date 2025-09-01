@@ -1,3 +1,3 @@
 # CS_CheckPoint
-CP de C#
-Projeto básico para teste de condicionais e operadores de comparação
+CP 1 de C#
+Projeto bï¿½sico para teste de condicionais e operadores de comparaï¿½ï¿½o

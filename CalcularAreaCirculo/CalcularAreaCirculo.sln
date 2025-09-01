@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcularAreaCirculo", "CalcularAreaCirculo.csproj", "{450185C9-DFE1-49BC-A657-D25F4F5302F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{450185C9-DFE1-49BC-A657-D25F4F5302F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{450185C9-DFE1-49BC-A657-D25F4F5302F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{450185C9-DFE1-49BC-A657-D25F4F5302F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{450185C9-DFE1-49BC-A657-D25F4F5302F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B6676D4-0FFF-4330-AE12-B14E0D46417F}
+	EndGlobalSection
+EndGlobal
